@@ -2,6 +2,17 @@
 //     a. заповнити його 50 парними числами за допомоги циклу.
 //     b. заповнити його 50 непарними числами за допомоги циклу.
 //     c. Заповнити масив 20ма рандомними числами. (Google: Generate random number JS)
+ let arr1 = [];
+
+console.log(arr1);
+
+for (let i = 0; i < arr1.length; i++) {
+    let element = arr1[i];
+    if (element%2 === 0){
+        arr1.push(element)
+    }
+    console.log(arr1)
+}
 // d. Заповнити масив 20ма рандомними чисалами в діапазоні від 8 до 732 (Google: Generate random number JS)
 // 2. Вивести за допомогою console.log кожен третій елемен
 // 3. Вивести за допомогою console.log кожен третій елемен тільки якщо цей елемент є парним.
